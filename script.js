@@ -1,5 +1,7 @@
 function threeSum(arr, target) {
 // write your code here
+ function threeSum(arr, target) {
+// write your code here
   arr.sort((a,b)=>a-b);
 	let ans = arr[0]+arr[1]+arr[2];
 	for(let i=0;i<arr.length-2;i++){
@@ -16,6 +18,3 @@ function threeSum(arr, target) {
 			}
 		}
 	}
-	
-  
-}
